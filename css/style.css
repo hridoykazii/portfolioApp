@@ -1,0 +1,341 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #e4e4e4 !important;
+}
+/* common-class-start */
+.paddingFix{
+    padding: 25px !important;
+}
+.sidebar-title{
+    font-size: 18px;
+    margin: 0px;
+    color: #333333;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e6e6e6;
+}
+/* common-class-end  */
+
+/* sideBar-Start */
+
+.sidebar{
+    background: #fff;
+}
+
+
+.sidebar-img{
+
+}
+.sidebar-img img{
+    width: 100% !important;
+}
+.navId{
+    
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 0;
+}
+.navId li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.navId li p{
+    margin: 0px;
+    margin: 0px;
+    line-height: 30px;
+    color: #333333;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.navId li p span{
+    width: 50%;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Attachments-Start */
+.attach{
+    
+}
+.m-bottom{
+    border-bottom: 1px solid #e6e6e6;
+}
+.navFile{
+
+}
+.navFile li{
+    background: #f5f5f5;
+    border: 1px solid #e6e6e6;
+    line-height: 40px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+.navFile li p{
+    color: #346abb;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+.navFile li p a{
+    margin: 0px;
+    color: #346abb;
+    font-weight: bold;
+    float: right;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.navFile li p a i{
+
+}
+
+/* Attachments-End */
+
+/* Social-Start */
+.social{
+
+}
+.socialList{
+    
+}
+.socialList li{
+    margin: 0 auto;
+}
+.socialList li a{
+    color: #333333;
+    border: 1px solid #cdcdcd;
+    border-radius: 50%;
+    width: 50px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    line-height: 48px;
+    margin-right: 8px;
+    transition: .5s ease;
+}
+.socialList li a:hover{
+    color: #346abb;
+}
+.socialList li a i{
+
+}
+/* Social-End */
+/* Contact-Me-Start */
+.contact{
+    
+}
+.contact input{
+    border: none;
+    color: #333;
+    box-shadow: none;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 13px;
+    background: #f5f5f5;
+    text-transform: none;
+    border-radius: 0%;
+}
+.contact textarea{
+    border: none;
+    color: #333;
+    box-shadow: none;
+    padding: 10px 20px;
+    font-size: 13px;
+    background: #f5f5f5;
+    text-transform: none;
+    border-radius: 0%;
+}
+.contact button{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 0%;
+    background-color: #346abb;
+    text-transform: uppercase;
+    transition: .3s ease;
+}
+.contact button:hover{
+    background-color: #333;
+    color: #346abb;
+}
+/* Contact-Me-End */
+/* sideBar-End */
+
+/* Primary-Page-Start */
+/* navbar-start */
+.navCustom{
+    padding-top: 0px !important;
+}
+.navCustom button{
+    width: 100%;
+    margin: 0px;
+    border: none;
+    height: 50px;
+    float: none;
+    padding: 0px 15px;
+    background: #fff;
+    margin-top: 30px;
+}
+.menu-title{
+
+}
+.menu{
+    background: #fff;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+}
+.menu li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.menu li a{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 25px 0;
+    border-radius: 0px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu li a:hover{
+    background: #346abb !important;
+    color: #fff !important;
+}
+.menu li a.active {
+    background: #346abb !important;
+    color: #fff !important;
+}
+.menu li a i{
+    margin-right: 8px;
+}
+/* navbar-end */
+/* About-Start */
+.about{
+    background: #fff;
+}
+.identity{
+    padding: 25px;
+    display: inline-block;
+    width: 100%;
+}
+.identity li{
+    width: 50%;
+    float: left;
+    list-style: none;
+}
+.identity li p{
+    margin: 0px;
+    line-height: 30px;
+}
+.identity li p span{
+    width: 50%;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* About-End */
+
+/* Skill-Start */
+.skill{
+    background: #fff;
+}
+.skilCon{
+    padding: 20px !important;
+}
+.skilCon p{
+    color: #333333;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+/* Skill-End */
+
+/* Services-Start */
+.service{
+    background: #fff;
+}
+.myService{
+    margin-top: 50px !important;
+    padding: 20px !important;
+}
+.serviceDetails{
+    text-align: center;
+}
+.serviceIcon{
+    background-color: #346abb !important;
+    border-color: #346abb !important;
+    color: #FFFFFF !important;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    line-height: 78px;
+    border-radius: 50%;
+    font-size: 26px;
+    border: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+}
+.serviceIcon i{
+
+}
+.serviceTitle{
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.serviceContent{
+    color: #333333;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+}
+/* Services-End */
+/* experience-start */
+.expert{
+    background: #fff;
+}
+.expert-group{
+    padding: 20px !important;
+}
+.expert-title{
+    width: 100%;
+    background: #fff;
+    padding: 5px 0px;
+    padding-left: 40px;
+    line-height: 20px;
+    display: inline-block;
+    text-transform: none;
+    border-radius: 20px;
+    margin: 0px !important;
+    
+}
+.expert-title a{
+    font-size: 13px;
+    font-weight: 500;
+    color: #808080 !important;
+    text-decoration: none;
+    transition: .3s ease;
+}
+.expert-title a:hover{
+    color: #346abb !important;
+}
+
+.expertProgress{
+    margin-top: 9px;
+}
+.expertProgress p{
+
+}
+/* experience-end */
+
+/* Primary-Page-End */
+
+
+
