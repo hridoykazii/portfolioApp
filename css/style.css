@@ -5,7 +5,7 @@ body{
 }
 /* common-class-start */
 .paddingFix{
-    padding: 25px !important;
+    padding: 17px !important;
 }
 .sidebar-title{
     font-size: 18px;
@@ -13,7 +13,6 @@ body{
     color: #333333;
     letter-spacing: 1px;
     text-transform: uppercase;
-    border-bottom: 1px solid #e6e6e6;
 }
 /* common-class-end  */
 
@@ -167,7 +166,7 @@ body{
 /* Primary-Page-Start */
 /* navbar-start */
 .navCustom{
-    padding-top: 0px !important;
+    padding: 0px !important;
 }
 .navCustom button{
     width: 100%;
@@ -192,12 +191,16 @@ body{
     float: left;
     width: 20%;
     text-align: center;
+    margin-right: 5px !important;
+}
+.menu li:last-child{
+    margin-right: 0px !important;
 }
 .menu li a{
     display: inline-block;
     text-align: center;
     width: 100%;
-    padding: 25px 0;
+    padding: 16px 0px !important;
     border-radius: 0px !important;
     font-weight: bold;
     text-transform: uppercase;

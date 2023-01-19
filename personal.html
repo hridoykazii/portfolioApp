@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/personal.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- fontAwwsome-link -->
+    <script src="https://kit.fontawesome.com/02a829a1e2.js" crossorigin="anonymous"></script>
+    
+    <title>Task</title>
+  </head>
+  <body>
+    <!-- Collaspe-sidebar-start  -->
+    <div id="wbSidebar" class="sidebar-main">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#">Message</a>
+      <a href="#">Alart</a>
+      <a href="#">Customer</a>
+      <a href="#">Contact</a>
+      <form class="sidebarConForm">
+          <div class="mb-3">
+            <label for="sidebarContactForm" class="form-label scf-label">Contact Name</label>
+            <input type="text" class="form-control" id="sidebarContactForm" aria-describedby="emailHelp" name="username">
+          </div>
+          <div class="mb-3">
+              <label for="sidebarContactForm" class="form-label scf-label">Contact Email</label>
+              <input type="email" class="form-control" id="sidebarContactForm" aria-describedby="emailHelp" name="email">
+            </div>
+          <div class="mb-3">
+            <label for="sidebarContactForm" class="form-label scf-label">Contact Mobile Number</label>
+            <input type="number" class="form-control" id="sidebarContactForm">
+          </div>
+          <div class="mb-3">
+              <label for="" class="form-label scf-label">Post</label>
+              <textarea class="form-control" name="post" id="sidebarContactForm" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn scf-btn">Submit</button>
+        </form>
+    </div>
+    <div id="main" class="mainClass">
+      <button class="openbtn" onclick="openNav()">☰</button>
+    </div>
+    <!-- Collaspe-sidebar-end  -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="wbMenu">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light wbNav">
+                    <a class="navbar-brand logo" href="#">
+                      <img src="images/wbSoftwaresLogo.png" class="img-fluid" alt="wbsoftwaresLogo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWb" aria-controls="navbarWb" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarWb">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0 wbMenuCustom">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">
+                            Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Lead</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Project</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Report</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Others</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Settings</a>
+                        </li>
+                      </ul>
+                      <form class="d-flex wbHeaderForm">
+                        <a href="#"><i class="fas fa-search"></i></a>
+                        <a href="#"><i class="fas fa-moon"></i></a>
+                        <a href="#">
+                          <img src="images/profilePic.png" alt="profilePictures">
+                        </a>
+                      </form>
+                    </div>
+                </nav>
+              </div>
+            </div>
+            <div class="col-md-4 d-none d-sm-block bg">
+              <div class="sidebar sidebar-sticky" id="navbarSupportedContent">
+                <h3 class="sidebar-title paddingFix">PROFESSIONAL DETAILS</h3>
+                <div class="sidebar-img">
+                  <label for="img" class="btn-file" >
+                    <p class="bf-text">
+                        <i class="fa fa-camera"></i>
+                        Click to add Picture</p> 
+                    <input type="file" id="img" name="img" >
+                  </label>
+                </div>
+                <!-- Store-Info-start -->
+                <div class="storeDetails m-bottom">
+                  <div class="row justify-content-center">
+                    <div class="col-md-10">
+                      <h4 class="sName">Kamal Store</h4>
+                      <p class="sType">POS Department</p>
+                      <!-- Install & Monthly Chart -->
+                      <div class="row">
+                        <div class="col-md-5 charge">
+                          <div class="fee">5000 BDT</div>
+                          <div class="cost">Installation Charge</div>
+                        </div>
+                        <div class="offset-md-2 col-md-5 charge">
+                          <div class="fee">500 BDT</div>
+                          <div class="cost">Monthly Charge</div>
+                        </div>
+                      </div>
+                      <!-- Install & Monthly Chart -->
+                    </div>
+                  </div>
+                </div>
+                <!-- Store-Info-end -->
+                <!-- Store-Intro-Start -->
+                <ul class="flex-column navId text-center storeIntro">
+                  <li class="nav-item">
+                    <p><span class="sInfo">Details</span><button type="button" class="btn cHeaderBtn" name="submit">Edit</button></p>
+                  </li>
+                </ul>
+                <!-- Store-Intro-End  -->
+
+                <ul class="flex-column paddingFix navId text-center">
+                  <li class="nav-item">
+                    <p><span>Mobile 1</span>01744440100</p>
+                  </li>
+                  <li class="nav-item">
+                    <p><span>Mobile 2</span> 01784569158</p>
+                  </li>
+                  <li class="nav-item">
+                    <p><span>Address 1</span> Dhaka</p>
+                  </li>
+                  <li class="nav-item">
+                    <p><span>Address 2</span> Banani</p>
+                  </li>
+                  <li class="nav-item">
+                    <p><span>District</span> Dhaka</p>
+                  </li>
+                  <li class="nav-item">
+                    <p><span>Interest</span> 5</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Contact-Main-page-start-->
+            <div class="col-md-8">
+            <!-- navbar-start -->
+                <nav class="navbar navbar-expand-sm navCustom">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarCus"
+                  aria-controls="navbarCus"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                <span class="menu-title">Menu</span>
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCus">
+                    <ul class="navbar-nav menu">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html#messages">
+                            <i class="fas fa-user"></i>
+                            Message
+                        </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="contact.html#alart">
+                                <i class="fas fa-book-open"></i>
+                                Alart
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="contact.html#customer">
+                                <i class="fas fa-rocket"></i>
+                                Customer
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">
+                                <!-- <i class="fas fa-edit"></i>
+                                blog -->
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">
+                                <!-- <i class="fas fa-pencil-alt"></i>
+                                contact me -->
+                            </a>
+                        </li>
+                    </ul>
+                  </div>
+                </nav>
+            <!-- navbar-end -->
+            <!-- Contact-Page-Start -->
+              <div class="conPage m-bottom" id="message">
+                <div class="row align-items-center paddingFix m-bottom cHeader">
+                  <div class="col-md-4">
+                    <h3 class="sidebar-title">BIO & SKILLS</h3>
+                  </div>
+                  <!-- <div class="offset-md-4 col-md-4">
+                    <a href="#" class="btn btn-sm cHeaderBtn">Create Contact</a>
+                  </div> -->
+                  <div class="col-md-12">
+                    <div class="mb-3">
+                        <label for="bio" class="form-label"></label>
+                        <textarea class="form-control bio-form" name="bio" id="bio" rows="6" placeholder="Write your description here"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12 add-skill">
+                    <h5 class="as-title">Add A Skill</h5>
+                    <!-- skill-categorie-start -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select Categories</option>
+                                <option value="1">Web Design</option>
+                                <option value="2">Web Development</option>
+                                <option value="3">Mobile App</option>
+                              </select>
+                        </div>
+                        <div class="col-md-6 ">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Skills</option>
+                                <option value="1">HTML</option>
+                                <option value="2">CSS</option>
+                                <option value="3">Photo Shop</option>
+                              </select>
+                        </div>
+                    </div>
+                    <!-- skill-categorie-end -->
+                    <!-- Skill-info-start -->
+                    
+                    <div class="skill-type-info">
+                            <label> Skill Level
+                              <input type="text" class="form-control" placeholder="0">
+                            </label>
+                            <label>Skill Description
+                              <textarea class="form-control" placeholder=""></textarea>
+                            </label>
+                    </div>
+                    <a href="#" class="btn cHeaderBtn">
+                        <i class="fa fa-plus"></i>
+                         Add Skill
+                    </a>  
+                      <!-- Skill-info-End -->
+                  </div>
+                  <div class="col-md-12 profession-describe">
+                    <div class="row paddingFix ">
+                      <h3 class="sidebar-title m-bottom">PROFESSIONAL EXPERIENCE</h3>
+                      <!-- Write-Professional -->
+                      <div class="col-md-6 profession-form">
+                        <form>
+                          <div class="mb-3">
+                            <label for="professionForm" class="form-label">Duration</label>
+                            <input type="email" class="form-control" id="professionForm" aria-describedby="emailHelp" placeholder="YYYY-YYYY">
+                          </div>
+                          <div class="mb-3">
+                            <label for="professionFormPass" class="form-label">Job Title</label>
+                            <input type="password" class="form-control" id="professionFormPass">
+                          </div>
+                          <div class="mb-3">
+                            <label for="professionFormPass" class="form-label">Company Name</label>
+                            <input type="password" class="form-control" id="professionFormPass">
+                          </div>
+                          <div class="mb-3">
+                            <label for="professionFormPass" class="form-label">Location</label>
+                            <input type="password" class="form-control" id="professionFormPass">
+                          </div>
+                        </form>
+                      </div>
+                      <!-- Image-Upload -->
+                      <div class="col-md-6 profession-img">
+                        <div class="sidebar-img">
+                          <label for="img" class="btn-file" >
+                            <p class="bf-text">
+                                <i class="fa fa-camera"></i>
+                                Click to add Picture</p> 
+                            <input type="file" id="img" name="img" >
+                          </label>
+                        </div>
+                      </div>
+                      <!-- Details -->
+                      <div class="col-md-12">
+                        <div class="mb-3">
+                          <label for="" class="form-label">Details</label>
+                          <textarea class="form-control" name="details" id="" rows="3"></textarea>
+                        </div>
+                        <a name="submit" id="" class="btn cHeaderBtn" href="#" role="button">
+                          <i class="fa fa-plus"></i>
+                          Add Experience
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- Services-End -->         
+        </div>
+            <!-- About-End -->
+          </div>
+        </div>
+        
+
+      </div>
+
+    </div>
+
+        <!-- Contact-Main-page-End-->
+  
+
+    <!-- js-part-start -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <!-- js-part-end -->
+  </body>
+</html>

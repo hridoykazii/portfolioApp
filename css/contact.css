@@ -1,0 +1,296 @@
+/* Store-Info-Start */
+
+.storeDetails{
+    text-align: center;
+    padding: 20px 0px;
+}
+.storeDetails .sName{
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: capitalize;
+    
+    line-height: 50px;
+    
+}
+.storeDetails .sType{
+    font-size: 20px;
+    font-weight: 500;
+    color: #32CD32;
+    background-color: rgba(152, 251, 152,0.3);
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 28px;
+    display: inline-block;
+}
+/* Breadcrumb-Start  */
+.bread-custom{}
+.bread-item{
+    padding-left: 20px !important;
+    margin: 0px !important;
+}
+.bread-item li{
+    font-size: 12px !important;
+}
+.bread-item li:last-child::before{
+    content: "-" !important;
+}
+
+.bread-item li a{
+    color: #333333 !important;
+    text-decoration-color: #0d6efd !important;
+}
+
+/* Breadcrumb-End  */
+
+/* Install & Monthly Chart-Start */
+.charge{    
+    border: 2px dotted #e3e3e3;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 1px #E3E3E3, 0px 0px 2px 2px #c1c1c1;
+    padding: 0px !important;
+}
+.fee{
+    font-size: 19px;
+    font-weight: 700;
+    color: #5e6278;
+}
+.cost{
+    color: #a1a5b7;
+}
+/* Install & Monthly Chart-End */
+/* Store-Info-End */
+
+/* WbMenu-Start */
+
+.wbMenu{
+    background-color: #fff;
+    margin: 20px 0px;
+}
+.wbNav{
+    padding: 0px 15px !important;
+}
+.wbNavBtn{
+
+}
+.wbNavBtn:focus{
+    box-shadow: none !important;
+}
+.wbMenu .logo{
+    margin-right: 45px !important;
+}
+
+.wbMenuCustom{}
+.wbMenuCustom li{}
+.wbMenuCustom li a{
+    padding: 15px !important;
+}
+.wbMenuCustom li a i{
+    display: block;
+    text-align: center;
+}
+.wbHeaderForm{
+    align-items: center;
+}
+.wbHeaderForm a{}
+.wbHeaderForm a i{
+    padding: 15px 10px;
+    color: #e3e3e3;
+    transition: .3s ease;
+}
+.wbHeaderForm a:hover i{
+    color: #343434;
+}
+.wbHeaderForm a img{}
+
+
+/* WbMenu-End */
+/* 2nd-navbar-start */
+.wbMenuSecond{}
+.second-menu{
+    justify-content: end !important;
+}
+.second-menu li{
+    width: 25% !important;
+}
+.second-menu li a {
+    padding: 10px 0 !important;
+}
+.second-menu li a i{
+    margin-right: 5px !important;
+}
+
+/* 2nd-navbar-end */
+.sInfo{
+    margin-top: 9px;
+    font-size: 23px;
+}
+.sInfoEdit{
+    font-size: 23px !important;
+    color: #fff !important;
+    padding: 0px !important;
+    width: 100px;
+    border-radius: 6px !important;
+    background: #0081C9 !important;
+}
+.storeIntro{
+    padding: 10px 25px 0px !important;
+}
+.storeIntro-text{
+
+}
+.storeIntro-text a{
+    
+}
+/* main-page-start */
+.conPage{
+    background-color: #ffff;
+}
+.cHeader{}
+.cHeader a {
+    float: right;
+    display: block;
+}
+.cHeaderTitle{
+
+}
+.cHeaderBtn{
+    color: #fff !important;
+    width: 150px !important;
+    background: #0d6efd !important;
+    border-color: #0d6efd !important;
+}
+.cHeaderBtn:hover{
+    color: #fff !important;
+    background: #0b5ed7 !important;
+    border-color: #0a58ca !important;
+}
+#message{
+    margin: 20px 0px;
+}
+#alart{
+    margin: 20px 0px;
+}
+#customer{
+    margin: 20px 0px;
+}
+.myTable{
+    margin-top: 15px !important;
+    padding: 20px !important;
+}
+.table-form-select{
+    color: #212529 !important;
+    font-size: 14px !important;
+    display: inline-block !important;
+    width: 50% !important;
+    float: right;
+}
+
+/* main-page-end */
+
+/* Collaspe-sidebar-Strat */
+
+.sidebar-main {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar-main a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar-main a:hover {
+    color: #333333 !important;
+  }
+  
+  .sidebar-main .closebtn {
+    position: absolute;
+    top: 0;
+    left: -50px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white !important;
+    color: #333333;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: transparent !important;
+    border-color: 2px solid white !important;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  .mainClass{
+      float: right;
+  }
+  .date-time{
+    
+  }
+  .input-group-append{
+    cursor: pointer;
+  }
+  /* Collaspe-sidebar-End */
+  /* Sidebar Contact Form-Start */
+  .sidebarConForm{
+      padding: 8px 8px 8px 32px;
+  }
+  .scf-label{
+    color: #333333 !important;
+  }
+  .scf-btn{
+      color: #333333 !important;
+      border: 1px solid #0d6efd !important;
+      border-radius: 5px !important;
+  }
+  .scf-btn:hover{
+      color: #0d6efd  !important;
+      border: 1px solid #333333 !important;
+      
+  }
+  /* Sidebar Contact Form-End */
+  /* Footer-start */
+  footer {
+    color: #333;
+    background-color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0px 0px 9px 1px #b5b5b5 inset;
+  }
+  
+  footer a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  /* Footer-End */
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar-main {padding-top: 15px;}
+    .sidebar-main a {font-size: 18px;}
+  }
+/* Collaspe-Sidebar-End */
