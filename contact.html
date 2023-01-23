@@ -51,7 +51,7 @@
               <label for="" class="form-label scf-label">Enter Messages: <span style="color:red">(required)</span></label>
               <textarea class="form-control" name="post" id="sidebarContactForm" rows="3"></textarea>
           </div>
-          <!-- <div class="date-time">
+          <div class="date-time">
             <form class="row">
               <label for="date" class="col-1 col-form-label">Date</label>
               <div class="col-12">
@@ -65,7 +65,7 @@
                 </div>
               </div>
             </form>
-          </div> -->
+          </div>
           
         </form>
         <button type="submit" class="btn cHeaderBtn" style="display: block; margin: 0 auto;">Submit</button>
@@ -148,9 +148,33 @@
                       </ul>
                       
                     </div>
-                    <a href="#" class="wbHeaderForm">
+                    <div class="dropdown open">
+                    <a href="#" class="wbHeaderForm" type="button" id="profileId" data-bs-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
                       <img src="images/profilePic.png" alt="profilePictures">
                     </a>
+                      <div class="dropdown-menu d-menu-custom" aria-labelledby="profileId">
+                        <div class="menu-content d-flex align-items-center px-3">
+                          <!--begin::Avatar-->
+                          <div class="symbol me-3">
+                              <img class="rounded-circle" src="images/profilePic.png" height="40" width="40">
+                          </div>
+                          <!--end::Avatar-->
+                          <!--begin::Username-->
+                          <div class="d-flex flex-column">
+                              <div class="fw-bold d-flex align-items-center fs-5">Admin
+                             </div>
+                              <a href="#" class="fw-semibold text-muted text-hover-primary fs-7">admindhaka@gmail.com</a>
+                          </div>
+                          <!--end::Username-->
+                      </div>
+                        <div class="menu-item">
+                          <a href="#" class="menu-link ">My Profile</a>
+                        <a href="#" class="menu-link " onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();">Sign Out</a>
+                      </div>
+                      </div>
+                    </div>
                 </nav>
               </div>
               <!-- 2nd-navbar-start -->
@@ -583,21 +607,6 @@
               <a href="#">Privacy Policy</a>
               <a href="#">Contact Us</a>
             </nav>
-            <div class="date-time">
-              <form class="row">
-                <label for="date" class="col-1 col-form-label">Date</label>
-                <div class="col-12">
-                  <div class="input-group date" id="datepicker">
-                    <input type="text" class="form-control one-datepicker" id="date" placeholder="M-D-YEAR">
-                    <span class="input-group-append">
-                      <span class="input-group-text d-block">
-                        <i class="fa fa-calendar" onclick="iclick()"></i>
-                      </span>
-                    </span>
-                  </div>
-                </div>
-              </form>
-            </div>
           </footer>
         </div>
       </div>
@@ -620,9 +629,9 @@
         });
       } );
 
-      function iclick(){
-        $(".one-datepicker").datepicker();
-      };
+      // function iclick(){
+      //   $(".one-datepicker").datepicker();
+      // };
 
       // function chk(){
       //   $( "#date" ).datepicker();

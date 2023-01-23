@@ -102,6 +102,40 @@
 }
 .wbHeaderForm a img{}
 
+/* Profile-Avatar-Start */
+.open{
+    
+}
+.d-menu-custom{
+    
+}
+.dropdown-menu[data-bs-popper] {
+    right: 0  !important;
+    left: auto !important;
+}
+.menu-content{
+
+}
+.symbol{
+
+}
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-link{
+    font-size: 16px !important;
+    color: #333333 !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5px !important;
+    text-decoration: none;
+}
+.menu-link:hover{
+    
+}
+/* Profile-Avatar-End */
+
 
 /* WbMenu-End */
 /* 2nd-navbar-start */

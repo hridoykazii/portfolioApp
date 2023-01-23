@@ -15,17 +15,37 @@
 
 <body>
   <header>
-    <a href="#" class="dropdown wbHeaderForm">
-        <button onclick="myFunction()" class="dropbtn"><img src="images/profilePic.png" alt="profilePictures"></button>
-        <div id="myDropdown" class="dropdown-content">
-            <div>
-                
+    
+      <div class="dropdown open">
+        <a class="" type="button" id="profileId" data-bs-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <img src="images/profilePic.png" alt="profilePictures">
+            </a>
+        <div class="dropdown-menu" aria-labelledby="profileId">
+          <div class="menu-content d-flex align-items-center px-3">
+            <!--begin::Avatar-->
+            <div class="symbol symbol-50px me-5">
+                <img class="rounded-circle" src="https://bdidea.com/uploads/user_img/1674061844_img_avatar.png" height="40" width="40">
             </div>
-            <img src="" alt="">
-            <div>admin</div>
-            <div>admin@email.com</div>
+            <!--end::Avatar-->
+            <!--begin::Username-->
+            <div class="d-flex flex-column">
+                <div class="fw-bold d-flex align-items-center fs-5">dhrubo
+               </div>
+                <a href="#" class="fw-semibold text-muted text-hover-primary fs-7">admindhaka@gmail.com</a>
+            </div>
+            <!--end::Username-->
         </div>
-      </a>
+        <div class="menu-item px-5">
+          <a href="#" class="menu-link px-5">My Profile</a>
+        </div>
+          <div class="menu-item px-5">
+          <form id="logout-form" action="https://bdidea.com/logout" method="POST" style="display: none;"><input type="hidden" name="_token" value="J2ulKM2MNMu7wuoCX44VCb5XbTSfbQF1HtYLLI0R"></form>
+          <a href="https://bdidea.com/logout" class="menu-link px-5" onclick="event.preventDefault();
+          document.getElementById('logout-form').submit();">Sign Out</a>
+        </div>
+        </div>
+      </div>
   </header>
   <main>
 

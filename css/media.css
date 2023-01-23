@@ -6,6 +6,9 @@
         padding: 10px !important;
         text-align: center;
     }
+    .wbMenuCustom li a i {
+        display: inline-block;
+    }
     .wbMenu .logo {
         margin-right: 0px !important;
         width: 160px;
@@ -26,14 +29,20 @@
         display:none;
     }
     /* Contact-Main-Page-Navbar */
+    .navCustom {
+        margin-top: 20px;
+    }
     .navCustom button {
 
         margin-top: 0px !important;
     }
-
+    .menu {
+        margin-top: 20px;
+    }
     .menu li{
         width: 100%;
     }
+    
 
     /* Store-Info-Details */
     .storeDetails .sName {
@@ -105,6 +114,9 @@
         padding: 10px !important;
         text-align: center;
     }
+    .wbMenuCustom li a i {
+        display: inline-block;
+    }
     .wbMenu .logo {
         margin-right: 0px !important;
         width: 160px;
@@ -124,7 +136,9 @@
     .navCustom button {
         margin-top: 0px !important;
     }
-
+    .navCustom {
+        margin-top: 20px;
+    }
     .menu li{
         width: 100%;
     }
@@ -190,6 +204,10 @@
         padding: 10px !important;
         text-align: center;
     }
+    .wbMenuCustom li a i {
+        display: inline-block;
+    }
+    
     .menu li a i {
         display: block;
     }
