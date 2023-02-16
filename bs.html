@@ -172,8 +172,8 @@
                               <input type="text" class="form-control" id="inputShop" required>
                             </div>
                             <div class="col-md-6">
-                              <label for="inputState" class="form-label modal-form-label-cus">Project <span style="color:red">*</span></label>
-                              <select id="inputState" class="form-select">
+                              <label for="inputStateEditPro" class="form-label modal-form-label-cus">Project <span style="color:red">*</span></label>
+                              <select id="inputStateEditPro" class="form-select">
                                 <option selected>Select Project</option>
                                 <option>SM</option>
                                 <option>HRM</option>
@@ -193,47 +193,59 @@
                               <label for="inputEmail" class="form-label modal-form-label-cus">Email: <span style="color:red">*</span></label>
                               <input type="email" class="form-control" id="inputEmail" required>
                             </div>
+                            <!-- District-Dropdown-Edit-Section -->
                             <div class="col-md-6">
                               <label for="searchInterest" class="form-label modal-form-label-cus">Select District</label>
-                              <div class="wrapper">
-                                <div class="select-btn form-select">
+                              <div class="wrapper" id="wrapperDisEdit">
+                                <div class="select-btn form-select" id="selectBtnEdit" >
                                     <span>Select your destrict</span>
                                 </div>
-                                <div class="content">
+                                <div class="content " id="content-disEdit">
                                     <div class="search">
-                                        <input type="text" placeholder="Search">
+                                        <input type="text" placeholder="Search" id="editDisInput">
                                     </div>
-                                    <ul class="options">
+                                    <ul class="options" id="optionsDisEdit">
                                        
-                                      </ul>
+                                    </ul>
                                 </div>
                             </div>
                             </div>
+                            <!-- District-Dropdown-Edit-Section-End -->
                             <div class="col-md-6">
-                              <label for="inputAddress1" class="form-label modal-form-label-cus" >Address1: <span style="color:red">*</span></label>
-                              <input type="text" class="form-control" id="inputAddress1" placeholder="Enter Address 1">
+                              <label for="inputAddress1Edit" class="form-label modal-form-label-cus" >Address1: <span style="color:red">*</span></label>
+                              <input type="text" class="form-control" id="inputAddress1Edit" placeholder="Enter Address 1">
                             </div>
                             <div class="col-md-6">
-                              <label for="inputAddress2" class="form-label modal-form-label-cus" >Address2: <span style="color:red">*</span></label>
-                              <input type="text" class="form-control" id="inputAddress2" placeholder="Enter Address 1">
+                              <label for="inputAddress2Edit" class="form-label modal-form-label-cus" >Address2: <span style="color:red">*</span></label>
+                              <input type="text" class="form-control" id="inputAddress2Edit" placeholder="Enter Address 1">
                             </div>
                             <div class="col-md-4">
-                              <label for="inputNumber" class="form-label modal-form-label-cus">Installation Charge</label>
-                              <input type="number" class="form-control" id="inputNumber" placeholder="0" required>
+                              <label for="inputNumberEdit" class="form-label modal-form-label-cus">Installation Charge</label>
+                              <input type="number" class="form-control" id="inputNumberEdit" placeholder="0" required>
                             </div>
                             <div class="col-md-4">
-                              <label for="inputMonthly" class="form-label modal-form-label-cus">Monthly Charge</label>
-                              <input type="number" class="form-control" id="inputMonthly" placeholder="0" required>
+                              <label for="inputMonthlyEdit" class="form-label modal-form-label-cus">Monthly Charge</label>
+                              <input type="number" class="form-control" id="inputMonthlyEdit" placeholder="0" required>
                             </div>
-                            <div class="col-md-4">
-                              <label for="searchInterest" class="form-label modal-form-label-cus" required>Interest</label>
-                                <select id="inputState" class="form-select">
-                                  <option selected>Select Your Interest</option>
-                                  <option>1% Interest</option>
-                                  <option>2% Interest</option>
-                                </select>
+                            <!-- Interest-Dropdown-Edit-Section -->
+                            <div class="col-md-6">
+                              <label for="searchInterest" class="form-label modal-form-label-cus">Select District</label>
+                              <div class="wrapper" id="wrapperInsEdit">
+                                <div class="select-btn form-select" id="selectBtnInsEdit" >
+                                    <span>Select your destrict</span>
+                                </div>
+                                <div class="content " id="contentInsEdit">
+                                    <div class="search">
+                                        <input type="text" placeholder="Search" id="editInsInput">
+                                    </div>
+                                    <ul class="options" id="optionsInsEdit">
+                                       
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="col-md-2">
+                            </div>
+                            <!-- Interest-Dropdown-Edit-Section -->
+                            <div class="col-md-2 m-auto">
                               <div class="modal-image">
                                 <label class="input-file">
                                   <i class="fas fa-pen"></i>
@@ -326,16 +338,16 @@
                                 <div class="modal-body py-10 px-lg-17">
                                   <form class="row g-3">
                                     <div class="col-md-6">
-                                      <label for="inputEmail4" class="form-label">Shop / Organization <span style="color:red">*</span></label>
-                                      <input type="text" class="form-control" id="inputEmail4" required>
+                                      <label for="inputEmail4msgShop" class="form-label">Shop / Organization <span style="color:red">*</span></label>
+                                      <input type="text" class="form-control" id="inputEmail4msgShop" required>
                                     </div>
                                     <div class="col-md-6">
-                                      <label for="inputPassword4" class="form-label">Mobile 1 <span style="color:red">*</span></label>
-                                      <input type="number" class="form-control" id="inputPassword4" required>
+                                      <label for="inputMobile1Msg" class="form-label">Mobile 1 <span style="color:red">*</span></label>
+                                      <input type="number" class="form-control" id="inputMobile1Msg" required>
                                     </div>
                                     <div class="col-md-6">
-                                      <label for="inputState" class="form-label">Project <span style="color:red">*</span></label>
-                                      <select id="inputState" class="form-select">
+                                      <label for="inputStateMsg" class="form-label">Project <span style="color:red">*</span></label>
+                                      <select id="inputStateMsg" class="form-select">
                                         <option selected>Select Project</option>
                                         <option>SM</option>
                                         <option>HRM</option>
@@ -343,7 +355,8 @@
                                         <option>ERP</option>
                                       </select>
                                     </div>
-                                    <div class="col-md-6">
+                                    <!-- Distric-Drop-Down-Start -->
+                                    <!-- <div class="col-md-6">
                                       <label for="searchInterest" class="form-label">Select District</label>
                                       <div class="wrapper">
                                         <div class="select-btn form-select">
@@ -358,21 +371,21 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    </div>
+                                    </div> -->
                                     <div class="col-12">
-                                      <label for="inputAddress" class="form-label" >Address <span style="color:red">*</span></label>
-                                      <textarea class="form-control" name="text" id="inputAddress" cols="30" rows=""></textarea>
+                                      <label for="inputAddressMsg" class="form-label" >Address <span style="color:red">*</span></label>
+                                      <textarea class="form-control" name="text" id="inputAddressMsg" cols="30" rows=""></textarea>
                                     </div>
                                     <div class="col-md-4">
-                                      <label for="inputNumber" class="form-label">Installation Charge</label>
-                                      <input type="number" class="form-control" id="inputNumber" placeholder="0">
+                                      <label for="inputNumberMsg" class="form-label">Installation Charge</label>
+                                      <input type="number" class="form-control" id="inputNumberMsg" placeholder="0">
                                     </div>
                                     <div class="col-md-4">
-                                      <label for="inputMonthly" class="form-label">Monthly Charge</label>
-                                      <input type="number" class="form-control" id="inputMonthly" placeholder="0">
+                                      <label for="inputMonthlyMsg" class="form-label">Monthly Charge</label>
+                                      <input type="number" class="form-control" id="inputMonthlyMsg" placeholder="0">
                                     </div>
                                     <!-- Interest-dropdown -->
-                                    <div class="col-md-4">
+                                    <!-- <div class="col-md-4">
                                       <label for="searchInterest" class="form-label">Interest</label>
                                       <div class="wrapper">
                                         <div class="select-btn form-select">
@@ -387,8 +400,8 @@
                                               </ul>
                                         </div>
                                     </div>
-                                    </div>
-                                    <div class="col-md-2">
+                                    </div> -->
+                                    <div class="col-md-2 m-auto">
                                       <div class="modal-image">
                                         <label class="input-file">
                                           <i class="fas fa-pen"></i>
@@ -524,16 +537,16 @@
                                 <div class="modal-body">
                                   <form class="row g-3">
                                     <div class="col-md-6">
-                                      <label for="inputEmail4" class="form-label">Shop / Organization <span style="color:red">*</span></label>
-                                      <input type="text" class="form-control" id="inputEmail4">
+                                      <label for="inputEmail4AlertShop" class="form-label">Shop / Organization <span style="color:red">*</span></label>
+                                      <input type="text" class="form-control" id="inputEmail4AlertShop">
                                     </div>
                                     <div class="col-md-6">
-                                      <label for="inputPassword4" class="form-label ">Mobile 1 <span style="color:red">*</span></label>
-                                      <input type="number" class="form-control" id="inputPassword4">
+                                      <label for="inputMobile1Alert" class="form-label ">Mobile 1 <span style="color:red">*</span></label>
+                                      <input type="number" class="form-control" id="inputMobile1Alert">
                                     </div>
                                     <div class="col-md-6">
-                                      <label for="inputState" class="form-label">Project <span style="color:red">*</span></label>
-                                      <select id="inputState" class="form-select">
+                                      <label for="inputStateAlertProject" class="form-label">Project <span style="color:red">*</span></label>
+                                      <select id="inputStateAlertProject" class="form-select">
                                         <option selected>Select Project</option>
                                         <option>SM</option>
                                         <option>HRM</option>
@@ -541,7 +554,8 @@
                                         <option>ERP</option>
                                       </select>
                                     </div>
-                                    <div class="col-md-6">
+                                    <!-- District-DropDown-Start -->
+                                    <!-- <div class="col-md-6">
                                       <label for="searchInterest" class="form-label">Select District</label>
                                       <div class="wrapper">
                                         <div class="select-btn form-select">
@@ -556,22 +570,23 @@
                                               </ul>
                                         </div>
                                     </div>
-                                    </div>
+                                    </div> -->
                                     
                                     <div class="col-12">
-                                      <label for="inputAddress" class="form-label" >Address <span style="color:red">*</span></label>
+                                      <label for="inputAddressMsgText" class="form-label" >Address <span style="color:red">*</span></label>
 
-                                      <textarea class="form-control" name="text" id="inputAddress" cols="30" rows="2"></textarea>
+                                      <textarea class="form-control" name="text" id="inputAddressMsgText" cols="30" rows="2"></textarea>
                                     </div>
                                     <div class="col-md-4">
-                                      <label for="inputNumber" class="form-label">Installation Charge</label>
-                                      <input type="number" class="form-control" id="inputNumber" placeholder="0">
+                                      <label for="inputNumberAlert" class="form-label">Installation Charge</label>
+                                      <input type="number" class="form-control" id="inputNumberAlert" placeholder="0">
                                     </div>
                                     <div class="col-md-4">
-                                      <label for="inputMonthly" class="form-label">Monthly Charge</label>
-                                      <input type="number" class="form-control" id="inputMonthly" placeholder="0">
+                                      <label for="inputMonthlyAlert" class="form-label">Monthly Charge</label>
+                                      <input type="number" class="form-control" id="inputMonthlyAlert" placeholder="0">
                                     </div>
-                                    <div class="col-md-4">
+                                    <!-- Interest-Section-Start -->
+                                    <!-- <div class="col-md-4">
                                       <label for="searchInterest" class="form-label">Interest</label>
                                       <div class="wrapper">
                                         <div class="select-btn form-select">
@@ -586,8 +601,8 @@
                                               </ul>
                                         </div>
                                     </div>
-                                    </div>
-                                    <div class="col-md-2">
+                                    </div> -->
+                                    <div class="col-md-2 m-auto">
                                       <div class="modal-image">
                                         <label class="input-file">
                                           <i class="fas fa-pen"></i>
@@ -691,12 +706,12 @@
                                 <div class="modal-body">
                                   <form class="row g-3">
                                     <div class="col-12">
-                                      <label for="inputEmail4" class="form-label">Project Name <span style="color:red">*</span></label>
-                                      <input type="email" class="form-control" id="inputEmail4">
+                                      <label for="inputEmail4ContactPro" class="form-label">Project Name <span style="color:red">*</span></label>
+                                      <input type="email" class="form-control" id="inputEmail4ContactPro">
                                     </div>
                                     <div class="col-12">
-                                      <label for="inputPassword4" class="form-label">Project Description <span style="color:red">*</span></label>
-                                      <input type="password" class="form-control" id="inputPassword4">
+                                      <label for="inputProDisCon" class="form-label">Project Description <span style="color:red">*</span></label>
+                                      <input type="text" class="form-control" id="inputProDisCon">
                                     </div>
                                     <div class="col-md-2">
                                       <div class="modal-image">
